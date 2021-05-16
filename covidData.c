@@ -38,6 +38,8 @@ void loadData(struct CovidData data[])
 					}
 				}
 			}
+
+			memset(buffer, 0, strlen(buffer));
 		}
 
 		fclose(file);
